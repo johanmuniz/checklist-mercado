@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.input-group {
+    width: 100%;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.total-container {
+    text-align: right;
+}
+
+.item-price-input {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.item-quantity-input {
+    width: 60px;
+    margin-right: 10px;
+}
+
+.item-text {
+    flex-grow: 1;
+}
+
+.item-actions {
+    display: flex;
+    align-items: center;
+}
+
+.delete-btn {
+    margin-left: 10px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer .text-muted {
+    font-size: 14px;
+}
